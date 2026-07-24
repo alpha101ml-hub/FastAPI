@@ -10,11 +10,11 @@ API: facilitates the access and control of data.
 ##### /tim = Path/Endpoint
 ##### ?video=123 = Query Parameter
 
-#### /books
-#### GET      /books              List of all the books in the database
-#### DELETE   /books/{boosId}     Delete a book based on their id
-#### POST     /books              Create a Book
-#### PUT      /books/{bookId}     Method to update a book
-#### GET      /books/{bookId}     Retrives a book based on their id
+HTTP Method	Endpoint	Description
+GET	/books	List of all the books in the database
+GET	/books/{bookId}	Retrieves a book based on their ID
+POST	/books	Create a book
+PUT	/books/{bookId}	Method to update a book
+DELETE	/books/{bookId}	Delete a book based on their ID
 
 #### Think of an API as a backend server that handles all data operations-creating, reading, updating and deleting.
