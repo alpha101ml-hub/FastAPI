@@ -11,7 +11,7 @@ API: facilitates the access and control of data.
 ##### ?video=123 = Query Parameter
 
 ### API Reference
-
+#### /books
 | HTTP Method | Endpoint | Description |
 | :--- | :--- | :--- |
 | **GET** | `/books` | List of all the books in the database |
